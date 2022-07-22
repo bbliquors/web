@@ -1,8 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Image from 'next/image';
 import {StyledContainer} from '../styles/muiStyles'
 import Navigation from '../components/Navigation';
-import Newsletter from '../components/Newsletter';
 
 const Home: NextPage = () => {
   return (
@@ -13,9 +13,9 @@ const Home: NextPage = () => {
         <link rel="icon" href="/banana.png" />
       </Head>
 
-    <StyledContainer disableGutters>
+    <StyledContainer disableGutters maxWidth="lg">
       <Navigation/>
-      <Newsletter/>
+      <Image src={'/splash.png'} layout="responsive" width={'3343px'} height={'3430px'}/>
     </StyledContainer>
          
 
