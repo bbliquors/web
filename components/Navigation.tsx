@@ -88,10 +88,7 @@ export default function Navigation() {
                 Banana Belt Liquors
                 300 East U.S. - 24 Woodland Park, Colorado 80863
                 719.687.9757
-                info@bananabeltliquors.com
-              </Typography>
-              <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                719.687.9757
+                bananabliquors@gmail.com
               </Typography>
             </Box>
             </Modal>
