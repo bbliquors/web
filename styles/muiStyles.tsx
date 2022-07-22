@@ -4,10 +4,6 @@ export const StyledContainer = styled(Container)({
     padding: 0
 });
 
-export const NewsLetterContainer = styled('div')({
-    padding: '10px'
-});
-
 export const ModalStyle = {
     position: 'absolute' as 'absolute',
     top: '50%',
