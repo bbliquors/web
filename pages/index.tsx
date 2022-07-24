@@ -15,7 +15,7 @@ const Home: NextPage = () => {
 
     <StyledContainer disableGutters maxWidth="lg">
       <Navigation/>
-      <Image src={'/splash.png'} layout="responsive" width={'3343px'} height={'3430px'}/>
+      <Image src={'/splashpage.png'} layout="responsive" width={'3343px'} height={'3430px'}/>
     </StyledContainer>
          
 
